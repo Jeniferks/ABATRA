@@ -1,0 +1,13 @@
+main{
+    background-color: var(--cor-texto-claro);
+    height: 100%;
+    
+}
+
+nav{
+    cursor: pointer;
+}
+
+nav:hover{
+    font-size:larger;
+}
