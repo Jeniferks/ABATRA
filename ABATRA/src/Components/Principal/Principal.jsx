@@ -3,8 +3,9 @@ import "./Principal.css"
 
 const Main = () => {
     return (
-    <div>
-        <main>Main content</main>
+    <div className="hero__section">
+        
+        <img className="logo" src="../src/assets/LogoSemFundo.png" alt="abatra"/>
     </div>
     )
 }
