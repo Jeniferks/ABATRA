@@ -1,20 +1,24 @@
 header{
     background-color: var(--cor-fundo-padrao);
     width: 100%;
-    
+    color: var(--cor-texto-segundaria);
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
+    
+    
     
     
 }
 
-.logo-header{
-    width: 70px;
+
+nav{
+    cursor: pointer;
 }
 
-.logo-header:hover{
-    width:80px;
+nav:hover{
+    font-size:larger;
 }

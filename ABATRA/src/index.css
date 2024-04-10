@@ -1,27 +1,20 @@
 #root {
     height: 100vh;
-    color: var(--cor-texto-padrao);
+    /* background: rgba(1, 102, 122, 0.147); */
+    /* background: linear-gradient(0deg, rgba(1, 102, 122, 1) 0%, rgba(222, 55, 77, 0.24086131034445024) 43%); */
+    color: var(--cor-texto-segundaria-cor-texto-primaria);
+    font-family: "Merriweather", serif;
+    
 }
 
 
 :root {
-    --cor-primaria-clara: #7986cb;
-    --cor-primaria: #3f50b5;
-    --cor-primaria-escura: #303f9f;
+    --cor-primaria-azul: #01667a;
+    --cor-primaria-vermelho: #de374d;
+    --cor-primaria-vermelho: #848689;
 
-    --cor-secundaria-clara: #ffab40;
-    --cor-secundaria: #ff9100;
-    --cor-secundaria-escura: #ff6d00;
+    --cor-texto-primaria: #ffffff;
+    --cor-texto-segundaria: #848689;
 
-    --cor-fundo-padrao: #ffffff;
-
-    --cor-texto-padrao: ##0d0d0d;
-    --cor-texto-claro: #87888b;
-
-    --cor-info: #0288d1;
-    --cor-sucesso: #1aa251;
-    --cor-aviso: #dea500;
-    --cor-erro: #eb0014;
-
-    --cor-cinza: #99A7BB;
 }
+
