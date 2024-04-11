@@ -1,24 +1,30 @@
 header{
-    background-color: var(--cor-fundo-padrao);
+    /* background-color: var(--cor-fundo-padrao); */
     width: 100%;
-    color: var(--cor-texto-segundaria);
+    /* color: var(--cor-texto-segundaria); */
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
-    
-    
-    
-    
+}
+
+.logo {
+    display: block;
+    width: 40rem;
+    height: auto;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
 }
 
 
-nav{
+/* nav{
     cursor: pointer;
 }
 
 nav:hover{
     font-size:larger;
-}
+} */
