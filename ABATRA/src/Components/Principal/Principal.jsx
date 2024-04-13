@@ -1,18 +1,19 @@
-
 import "./Principal.css"
+import Logo from "../../assets/1.png";
 
 
 const Main = () => {
     return (
-    <div className="hero__section">
-        <div>
-            <img className="logo" src="../src/assets/2.png" alt="abatra"/>
-            <nav>Home</nav>
-            <nav>Beneficios</nav>
-            <nav>Perguntas Frequentes</nav>
-            <nav>Links Uteis</nav>
-            <nav>Contato</nav>
-        </div>
+    <div className="main">
+        
+            <div className="main__content">
+                <img src={Logo} alt="main_logo"/>
+                <button className="btn__main">Saiba mais!</button>
+        
+            </div>
+            
+        
+        
             
         
     </div>
