@@ -1,8 +1,21 @@
-# React + Vite
+# ABATRA - ASSOCIAÇÃO BRASILEIRA DE AMPARO AOS TRABALHADORES
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Landing page com o objetivo de mostrar e orientar trabalhadores sobre os benefícios do INSS**
 
-Currently, two official plugins are available:
+- Pagina inicial
+    -
+    - Header;
+    - Logo;
+    - Sobre;
+    - Benefícios
+        - Auxilio-doença;
+        - Auxilio-acidente;
+        - Pensão por Morte;
+    - Depoimentos
+    - Entre em contato conosco;
+    - Footer;        
+     
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+  
