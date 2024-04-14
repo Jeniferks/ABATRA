@@ -3,9 +3,13 @@
     position: absolute;
     top:100vh;
     width: 100%;
-    height: 100vh;
-    border: 2px solid red;
-    background-color: black;
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    background-color: #070707;
+    /* background-image: url("../../assets/amazon-bg.png"); */
+    background-size: cover;
+    
+    
     
     
     
@@ -15,7 +19,9 @@
 
 .titulo__sobre{
     font-size: 5rem;
-    color: white;
+    position: relative;
+    margin-top: 7rem;
+    color: rgba(255, 255, 255, 0.847);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,38 +29,102 @@
 }
 
 .sobre__descricao{
-    font-size: 30px;
+    font-size: 35px;
     text-align:start;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 45rem;
-    margin: 50px;
-    line-height: 3rem;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    line-height: 3.7rem;
+    color: rgba(255, 255, 255, 0.847);
+    text-align: justify;
+    letter-spacing: 2px;
 }
 
 .about_left__container{
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
     /* background-color: aqua; */
     width: 50%;
     position: relative;
-    right: 0;
+    align-items: center;
+    justify-content: center;
+    /* right: 0; */
 }
 
 
 .about_right__container{
-    border: 2px solid blue;
-    /* background-color: yellow; */
+    /* border: 2px solid blue; */
     width: 50%;
-    position: relative;
-    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+    
+
 }
 
 
 .about_right__container  .about_left__container{
+    position: static;
+}
+
+.logoHorizontal{
+    display: flex;
+    position: relative;
+    top: 5rem;
+}
+
+/* .imgDoenca, .imgAcidente{
+    width: 20rem;
+    height: 35rem;
+}
+
+.imgDoenca{
+    position: relative;
+    bottom: 2rem ;
+    left: 15em;
     
 }
 
-.about__logo{
-    width: 7rem;
+.imgAcidente{
+    position: relative;
+    right: 10rem;
+    
+}  */
+
+.btn__beneficios{
+    background: #77a32a;
+    background-image: -webkit-linear-gradient(top, #77a32a, #7AC300);
+    background-image: -moz-linear-gradient(top, #77a32a, #7AC300);
+    background-image: -ms-linear-gradient(top, #77a32a, #7AC300);
+    background-image: -o-linear-gradient(top, #77a32a, #7AC300);
+    background-image: linear-gradient(to bottom, #77a32a, #7AC300);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: "Titillium Web", sans-serif;
+    letter-spacing: 2px;;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #a5c769 1px;
+    text-decoration: none;
+    
+    cursor: pointer;
+    width: 15rem;
+    height: 4rem;
+    text-align: center;
+    margin-left: 22rem;
+}
+
+.btn__beneficios:hover {
+    background: #1aad24;
+    background-image: -webkit-linear-gradient(top, #1aad24, #63d934);
+    background-image: -moz-linear-gradient(top, #1aad24, #63d934);
+    background-image: -ms-linear-gradient(top, #1aad24, #63d934);
+    background-image: -o-linear-gradient(top, #1aad24, #63d934);
+    background-image: linear-gradient(to bottom, #1aad24, #63d934);
+    text-decoration: none;
 }

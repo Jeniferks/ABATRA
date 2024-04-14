@@ -6,7 +6,7 @@ import "./Principal.css"
 
 const Main = () => {
     return (
-        <div className="main__content">
+        <section className="main__content">
 
 
             <p>ESSE É UM <br />DIREITO SEU!</p>
@@ -17,7 +17,7 @@ const Main = () => {
 
 
 
-        </div>
+        </section>
     )
 }
 

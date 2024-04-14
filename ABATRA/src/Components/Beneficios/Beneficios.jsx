@@ -2,7 +2,9 @@ import "./Beneficios.css"
 
 const Beneficios = () => {
   return (
-    <div>Beneficios</div>
+    <section className="beneficios__content">
+      
+    </section>
   )
 }
 

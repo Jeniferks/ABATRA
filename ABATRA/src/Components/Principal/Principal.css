@@ -2,14 +2,14 @@
 
 .main__content{
     display: flex;
-    
+    height: 100vh;
     
     background-image: url("../../assets/bg-ctps.png");
     background-size: cover;
     flex-direction: column;
-    height: 400em;
     
-    border: 8px solid green;
+    
+    /* border: 8px solid green; */
     align-items: center;
     justify-content: center;
     
