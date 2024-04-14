@@ -1,7 +1,7 @@
 footer{
     border: 5px solid orange;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     
 }

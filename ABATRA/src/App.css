@@ -1,20 +1,13 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   
 }
 
 
-#root{
+/* #root{
   display: grid;
-
-  grid-template-areas: 
-  "header"
-  "main"
-  "footer";
-
-    grid-template-rows: 10vh 90vh 10vh;
-    grid-template-columns: 1fr;
-    font-size: 20px;
+  
     
-}
+} */
