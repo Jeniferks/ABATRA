@@ -1,14 +1,59 @@
 .beneficios__content{
     display: flex;
     flex-direction: column;
-    background-color: red;
-    border: 2px solid green;
+    background-color: #070707;
+    background-image: url(../../assets/beneficios-bg.png);
+    background-size: cover;
+    /* border: 20px solid green; */
+    color: bisque;
+    height: 100%;
+    margin-top: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 
-    
-    
-    
-    
-    
+.beneficios__content > h1{
+    color:bisque;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 100px;
+    padding-top: 150px;
     
 
+}
+
+.btn__auxilios{
+    background: #77a32a;
+    background-image: -webkit-linear-gradient(top, #77a32a, #7AC300);
+    background-image: -moz-linear-gradient(top, #77a32a, #7AC300);
+    background-image: -ms-linear-gradient(top, #77a32a, #7AC300);
+    background-image: -o-linear-gradient(top, #77a32a, #7AC300);
+    background-image: linear-gradient(to bottom, #77a32a, #7AC300);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: "Titillium Web", sans-serif;
+    letter-spacing: 2px;;
+    color: #ffffff;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    border: solid #a5c769 1px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    margin-left: 9rem;
+    margin-bottom: 1rem;
+}
+
+.btn__auxilios:hover {
+    background: #1aad24;
+    background-image: -webkit-linear-gradient(top, #1aad24, #63d934);
+    background-image: -moz-linear-gradient(top, #1aad24, #63d934);
+    background-image: -ms-linear-gradient(top, #1aad24, #63d934);
+    background-image: -o-linear-gradient(top, #1aad24, #63d934);
+    background-image: linear-gradient(to bottom, #1aad24, #63d934);
+    text-decoration: none;
 }

@@ -1,10 +1,13 @@
 import "./Beneficios.css"
+import CardBeneficios from "../CardComponent/CardComponent.jsx"
+// import beneficiosBackground from "../../assets/beneficios-bg.png"
 
 const Beneficios = () => {
   return (
-    <section className="beneficios__content">
-      
-    </section>
+    <div className="beneficios__content">
+      <h1>Benefícios</h1>
+      <CardBeneficios/>
+    </div>
   )
 }
 

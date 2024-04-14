@@ -6,6 +6,7 @@
     font-style: normal;
     display: flex;
     flex-direction: column;
+    background-color: #070707;
     
 }
 
@@ -14,6 +15,8 @@
     --cor-primaria-verde: #7AC300;
     --cor-primaria-vermelho: #CC0019;
     --cor-primaria-azul: #1960AE;
+
+
 
     --cor-texto-primaria: #ffffff;
     --cor-texto-segundaria: #848689;
