@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { CardActionArea, CardActions } from '@mui/material';
+import { CardActionArea } from '@mui/material';
 import auxDoencaImg from "../../assets/doenca-card-img.png"
 import auxAcidenteImg from "../../assets/acidente-card-img.png"
 import pensaoMorte from "../../assets/pensao-morte.png"
@@ -15,7 +15,7 @@ export default function MultiActionAreaCard() {
         <div className='card__content'>
 
             {/* auxilio-doença */}
-            <Card sx={{ maxWidth: 450,margin:5 }}>
+            <Card sx={{ maxWidth: 300, maxHeight: 500, margin:10 }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -24,19 +24,19 @@ export default function MultiActionAreaCard() {
                     alt="auxilio doença"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{ marginLeft:16 }}>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ display:"flex", alignItems: "center", justifyContent: "center" }}>
                         Auxilio-Doença
                     </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ fontSize:18 }}>
+                    <Typography variant="body2" color="text.secondary" sx={{ fontSize:15 }}>
                         Benefício concedido aos trabalhadores que estão 100% incapaz de trabalhar por um periodo indeterminado
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            <CardActions>
+            {/* <CardActions>
                 <button  className='btn__auxilios'>
                     Saiba mais
                 </button>
-            </CardActions>
+            </CardActions> */}
         </Card>
 
 
@@ -44,7 +44,7 @@ export default function MultiActionAreaCard() {
         {/* auxilio acidente  */}
         
 
-            <Card sx={{ maxWidth: 450,margin:5 }}>
+            <Card sx={{ maxWidth: 300, maxHeight: 500, margin:10 }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -53,24 +53,24 @@ export default function MultiActionAreaCard() {
                     alt="auxilio doença"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{ marginLeft:17 }}>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ display:"flex", alignItems: "center", justifyContent: "center"  }}>
                         Auxilio-Acidente
                     </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ fontSize:18 }}>
+                    <Typography variant="body2" color="text.secondary" sx={{ fontSize:15}}>
                         Benefício concedido aos trabalhadores que eforam liberados para retorno ao trabalho com sequelas.
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            <CardActions>
+            {/* <CardActions>
             <button  className='btn__auxilios'>
                     Saiba mais
                 </button>
-            </CardActions>
+            </CardActions> */}
         </Card>
 
         {/* Pensao por morte */}
 
-        <Card sx={{  maxWidth: 480,margin:5 }}>
+        <Card sx={{ maxWidth: 300, maxHeight: 500, margin:10 }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -79,19 +79,19 @@ export default function MultiActionAreaCard() {
                     alt="auxilio doença"
                 />
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{ marginLeft:17 }}>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ display:"flex", alignItems: "center", justifyContent: "center"  }}>
                         Pensão por Morte
                     </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ fontSize:18 }}>
+                    <Typography variant="body2" color="text.secondary" sx={{ fontSize:15 }}>
                         Benefício destinado aos dependentes do segurado empregado em razão de seu falecimento. 
                     </Typography>
                 </CardContent>
             </CardActionArea>
-            <CardActions>
+            {/* <CardActions>
             <button  className='btn__auxilios'>
                     Saiba mais
                 </button>
-            </CardActions>
+            </CardActions> */}
         </Card>
         </div>
     );

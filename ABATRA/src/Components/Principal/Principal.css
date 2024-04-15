@@ -7,11 +7,12 @@
     background-image: url("../../assets/bg-ctps.png");
     background-size: cover;
     flex-direction: column;
-    
+    padding-top: 6rem;
     
     /* border: 8px solid green; */
     align-items: center;
     justify-content: center;
+    
     
 
 }
@@ -19,14 +20,14 @@
 
 
 p{
-    font-size: 120px;
+    font-size: 100px;
     font-family: "Titillium Web", sans-serif;
     font-weight: 850;
     font-style: normal;
     color: #fff;
     text-align: center;
     line-height: 1em;
-    margin-bottom: 4rem;
+    animation: fadeIn 3s ease-in; 
 
 }
 
@@ -49,11 +50,12 @@ p{
     padding: 10px 20px 10px 20px;
     border: solid #a5c769 1px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 10rem;
     cursor: pointer;
     width: 15rem;
     height: 4rem;
     text-align: center;
+    animation: fadeIn 3s ease-in; 
 }
 
 .btn__main:hover {

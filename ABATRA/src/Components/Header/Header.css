@@ -9,6 +9,7 @@
     /* margin: 20px; */
 
     font-size: 30px;
+    
 }
 
 .header__nav{
@@ -18,7 +19,7 @@
 }
 
 .main__logo{
-    width: 30rem;
+    width: 20rem;
     margin-top: 1rem;
     padding: 0;
     margin-left: 2.5rem;
@@ -39,3 +40,4 @@ nav:hover {
     
     text-shadow: -1px 5px 0 #0a0e271b;
 }
+
