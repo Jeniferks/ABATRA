@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer>
             <span className="texto-copyright">
-                copyright &copy; {date} - Todos os direitos reservados - ABATRA 
+                copyright &copy; {date} - Todos os Direitos Reservados - ABATRA - Associação Brasileira de Amparo aos Trabalhadores; 
             </span>
         </footer>
     )

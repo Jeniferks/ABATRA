@@ -7,15 +7,20 @@ import { CardActionArea } from '@mui/material';
 import auxDoencaImg from "../../assets/doenca-card-img.png"
 import auxAcidenteImg from "../../assets/acidente-card-img.png"
 import pensaoMorte from "../../assets/pensao-morte.png"
+
 import "./CardComponent.css"
 
 
+
+
 export default function MultiActionAreaCard() {
+        
+    
     return (
         <div className='card__content'>
 
             {/* auxilio-doença */}
-            <Card sx={{ maxWidth: 300, maxHeight: 500, margin:10 }}>
+            <Card   sx={{ maxWidth: 300, maxHeight: 500, margin:10, boxShadow: "-15px 7px 22px -2px black" }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -44,7 +49,7 @@ export default function MultiActionAreaCard() {
         {/* auxilio acidente  */}
         
 
-            <Card sx={{ maxWidth: 300, maxHeight: 500, margin:10 }}>
+            <Card sx={{ maxWidth: 300, maxHeight: 550, margin:5, boxShadow: "-15px 7px 22px -2px black" }}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -70,7 +75,7 @@ export default function MultiActionAreaCard() {
 
         {/* Pensao por morte */}
 
-        <Card sx={{ maxWidth: 300, maxHeight: 500, margin:10 }}>
+        <Card sx={{ maxWidth: 300, maxHeight: 550, margin:10, boxShadow: "-15px 7px 22px -2px black" }}>
             <CardActionArea>
                 <CardMedia
                     component="img"

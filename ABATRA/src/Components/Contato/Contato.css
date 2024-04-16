@@ -1,0 +1,13 @@
+.contato__main__container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #e70d0d; */
+    
+    background-size: cover;
+    /* border: 20px solid green; */
+    color: bisque;
+    height: 100vh;
+    /* margin-top: vh; */
+    align-items: center;
+    justify-content: center;
+}
