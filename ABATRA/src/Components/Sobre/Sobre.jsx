@@ -10,7 +10,7 @@ const Sobre = () => {
           
       <h1 className="titulo__sobre">SOBRE NÓS</h1>
       <p className="sobre__descricao">Somos uma associação dedicada a auxiliar na obtenção dos seus direitos previdenciários. Nossa equipe oferece suporte para que os trabalhadores recebam o que é devido. Conte conosco para garantir que você receba os benefícios que merece, de maneira rápida e descomplicada.</p>
-      <button className="btn__beneficios">Benefícios</button>
+      <button className="btn__beneficios" onClick={() => window.scrollTo({ top: 1900, behavior: "smooth" })}>Benefícios</button>
     </div>
     <div className="about_right__container">
         <img className="logoHorizontal" src={logoHorizontal} alt="logoHorizontal"/>

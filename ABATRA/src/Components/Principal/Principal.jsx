@@ -10,7 +10,7 @@ const Main = () => {
 
 
             <p>ESSE É UM <br />DIREITO SEU!</p>
-            <button className="btn__main">SAIBA MAIS</button>
+            <button className="btn__main" onClick={() => window.scrollTo({ top: 920, behavior: "smooth" })}>SAIBA MAIS</button>
 
 
 
