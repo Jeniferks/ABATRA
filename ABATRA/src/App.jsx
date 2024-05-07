@@ -11,14 +11,14 @@ import Contato from './Components/Contato/Contato'
 function App() {
   
   return (
-    <>
-      <Header/>
-      <Principal/>
-      <Sobre/>
-      <Beneficios/>
+    <div className='app'>
+      <Header className="header"/>
+      <Principal className="main"/>
+      <Sobre className="sobre"/>
+      <Beneficios className="beneficios"/>
       {/* <Depoimentos/> */}
-      <Contato/>
-      <Footer/>
+      <Contato className="contato"/>
+      <Footer className="footer"/>
 
       <a
         href="https://wa.me/+5548988521521"
@@ -29,7 +29,7 @@ function App() {
         <i className="fa fa-whatsapp whatsapp-icon"></i>
       </a>
 
-    </>
+    </div>
   )
 }
 
